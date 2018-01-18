@@ -6,8 +6,8 @@
     <script src="./js/jquery-3.2.1.min.js"></script>
     <style type="text/css">
         *{
-            margin: 0px;
-            padding: 0px;
+            margin: 0;
+            padding: 0;
         }
         .box{
             margin-top: 100px;
@@ -16,45 +16,114 @@
             position: relative;
         }
 
-        .picList{
+        .list{
             width:1200px;
             height:300px;
             overflow:hidden;
-            position: absolute;
+            position:absolute;
             left:50%;
             margin-left:-600px;
         }
-
         .btn{
-            position: absolute;
-            top: 50%;
+            position:absolute;
+            top:50%;
             margin-top: -50px;
-            width: 60px;
-            height: 100px;
-            line-height: 100px;
-            font-size: 30px;
-            color: white;
+            width:60px;
+            height:100px;
+            text-align:center;
+            line-height:100px;
+            color:white;
+            font-size:30px;
             text-decoration: none;
-            text-align: center;
             background: rgba(0,255,0,.5);
-            cursor: pointer;
+            cursor:pointer;
         }
         .next{
-            right: 0;
+            right:0;
         }
 
+        li{
+            position: absolute;
+            top:0;
+            left:0;
+            list-style:none;
+            opacity:0;
+            transition: all 0.3s ease-out;
+        }
+        img{
+            width:751px;
+            height:300px;
+            border:none;
+            float:left;
+        }
+        .p1{
+            transform:translate3d(-224px,0,0) scale(0.81);
+        }
+        .p2{
+            transform: translate3d(0px,0,0) scale(0.81);
+            transform-origin: 0 50%;
+            opacity: 0.8;
+            z-index: 2;
+        }
+        .p3{
+            transform:translate3d(224px, 0, 0) scale(1);
+            z-index:3;
+            opacity: 1;
+        }
+        .p4{
+            transform:translate3d(449px, 0, 0) scale(0.81);
+            transform-origin: 100% 50%;
+            opacity: 0.8;
+            z-index:2;
+        }
+        .p5{
+            transform:translate3d(672px, 0, 0) scale(0.81);
+        }
+        .p6{
+            transform:translate3d(896px, 0, 0) scale(0.81);
+        }
+        .p7{
+            transform:translate3d(1120px, 0, 0) scale(0.81);
+        }
+
+        .buttons{
+            position:absolute;
+            width:1200px;
+            height:30px;
+            bottom:0;
+            left:50%;
+            margin-left:-600px;
+            text-align:center;
+            padding-top:10px;
+        }
+        .buttons a {
+            display: inline-block;
+            width:35px;
+            height:5px;
+            padding-top:4px;
+            cursor:pointer;
+        }
+        span {
+            display: block;
+            width:35px;
+            height:1px;
+            background: red;
+        }
+        .blue{
+            background: blue;
+        }
     </style>
 </head>
 <body>
     <div class="box">
-        <div class="picList">
+        <div class="list">
             <ul>
                 <li class="p7"><a href="#"><img src="./imgs/7.jpg" alt=""/></a></li>
                 <li class="p6"><a href="#"><img src="./imgs/6.jpg" alt=""/></a></li>
                 <li class="p5"><a href="#"><img src="./imgs/5.jpg" alt=""/></a></li>
                 <li class="p4"><a href="#"><img src="./imgs/4.jpg" alt=""/></a></li>
                 <li class="p3"><a href="#"><img src="./imgs/3.png" alt=""/></a></li>
-                <li class="p2"><a href="#"><img src="./imgs/2.jpg" alt=""/></a></li>
+                <li class="p2"><a href="#"><img src="./imgs/2.png" alt=""/></a></li>
                 <li class="p1"><a href="#"><img src="./imgs/1.png" alt=""/></a></li>
             </ul>
         </div>
@@ -73,8 +142,5 @@
         </div>
 
     </div>
-    <script>
-
-    </script>
 </body>
 </html>
