@@ -9,11 +9,11 @@
 ## 3. 前端Demo项目介绍
 ### 3.1 Images(图片特效系列)
 ##### 3.1.1 3DRotateImg
-- 1.图片以3D方式轮转，[效果图](http://htmlpreview.github.io/?https://github.com/thinkingfioa/front-project/blob/master/Images/3DRotateImg/imdex.html)
+- 1.图片以3D方式轮转，[效果图](http://htmlpreview.github.io/?https://github.com/thinkingfioa/front-project/blob/master/Images/3DRotateImg/index.html)
 
 ### 3.3 其它
 ##### 3.3.1 hoverInfo
-- 1.鼠标划过，内容动态显示详细信息，[效果图](http://htmlpreview.github.io/?https://github.com/thinkingfioa/front-project/blob/master/hoverInfo/imdex.html)
+- 1.鼠标划过，内容动态显示详细信息，[效果图](http://htmlpreview.github.io/?https://github.com/thinkingfioa/front-project/blob/master/hoverInfo/index.html)
 
 
 
