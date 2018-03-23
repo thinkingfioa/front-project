@@ -1,19 +1,34 @@
-## 《前端项目学习》
+# 《前端项目学习》
 
-## 1. 简介
-### 1.1 概述
+# 一、 简介
+## 1 概述
 本项目front-project包含了很多前端Demo项目，以供大家学习和参考
 
-## 2. 快速入门
+# 二、 快速入门
 
-## 3. 前端Demo项目介绍
-### 3.1 Images(图片特效系列)
-##### 3.1.1 3DRotateImg
+# 三、 前端Demo项目介绍
+## 1. Images(图片特效系列)
+### 1.1 3DRotateImg
 - 1.图片以3D方式轮转，[效果图](http://htmlpreview.github.io/?https://github.com/thinkingfioa/front-project/blob/master/Images/3DRotateImg/index.html)
 
-### 3.3 其它
-##### 3.3.1 hoverInfo
-- 1.鼠标划过，内容动态显示详细信息，[效果图](http://htmlpreview.github.io/?https://github.com/thinkingfioa/front-project/blob/master/hoverInfo/index.html)
+## 3. 其它
+ 
+### 3.1 hoverInfo
+
+##### 3.1.1 功能描述
+12宫格排放小图片，鼠标移动到具体的图片上，显示图片详情
+
+##### 3.1.2 效果展示
+鼠标划过，内容动态显示详细信息，[效果图](http://htmlpreview.github.io/?https://github.com/thinkingfioa/front-project/blob/master/hoverInfo/index.html)
+
+### 3.2 changeInfo
+
+##### 3.2.1 功能描述
+鼠标滑动到对于的元素上，右边显示详细信息。同时具有导航栏
+
+##### 3.2.2 效果展示
+鼠标划过，右侧出现动态信息，[效果图]()
+
 
 
 
